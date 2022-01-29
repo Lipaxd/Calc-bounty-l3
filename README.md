@@ -2,7 +2,7 @@
 <h1>Calculator in Solana <h1>
 </div>
 
-This Calculator written Rust using [Anchor ⚓](https://project-serum.github.io/anchor/getting-started/introduction.html) 
+This Calculator written Rust using [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) 
 
  Setting up the Environment:
 
@@ -21,13 +21,13 @@ sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
 ```
 **Please update your `PATH` environment variable to include the solana programs**
 
-* [Anchor ⚓](https://project-serum.github.io/anchor/getting-started/introduction.html) Installation: 
+ [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) Installation: 
 
 ```bash
 npm i -g @project-serum/anchor-cli
 ```
 
-* And we can use Cargo to install CLI:
+ And we can use Cargo to install CLI:
 
 ```bash
 cargo install --git https://github.com/project-serum/anchor --tag v0.17.0 anchor-cli --locked
@@ -53,7 +53,7 @@ Wallet address and airdrop some **SOL**
 solana address
 ```
 
-* For more comprehensive details of your account
+ For more comprehensive details of your account
 
 ```
 solana account <your address from the last command>
@@ -62,7 +62,7 @@ solana account <your address from the last command>
 
  Build project from scratch
 
-* Setting up anchor project
+ Setting up anchor project
 
 ```bash
 anchor init <your project name>
@@ -70,13 +70,13 @@ anchor init <your project name>
 cd <your project directory>
 ```
 
-* Compile the project
+ Compile the project
 
 ```bash
 anchor build
 ```
 
-* To run tests 
+ To run tests 
 
 ```bash
 anchor test
