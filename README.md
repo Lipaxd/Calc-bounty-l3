@@ -6,7 +6,7 @@ This Calculator written Rust using [Anchor](https://project-serum.github.io/anch
 
  Setting up the Environment:
 
-* Rust Installation:
+ Rust Installation:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -14,7 +14,7 @@ source $HOME/.cargo/env
 rustup component add rustfmt
 ```
 
-* Solana Installation:
+ Solana Installation:
 
 ```bash
 sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
